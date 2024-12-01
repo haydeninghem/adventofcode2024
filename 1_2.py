@@ -16,6 +16,7 @@ with open(file_path, 'r') as file:
             left_list.append(int(parts[0]))
             right_list.append(int(parts[1]))
 
+
 counter = 0 
 for loc_id in left_list:
     counter += loc_id * right_list.count(loc_id)
