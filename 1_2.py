@@ -9,10 +9,10 @@ left_list = []
 right_list = []
 with open(file_path, 'r') as file:
     for line in file:
-            # Strip whitespace and split the line by spaces
+         
         parts = line.strip().split('   ')
-        # Add the parts to respective lists
-        if len(parts) == 2:  # Ensure there are two parts
+      
+        if len(parts) == 2: 
             left_list.append(int(parts[0]))
             right_list.append(int(parts[1]))
 
